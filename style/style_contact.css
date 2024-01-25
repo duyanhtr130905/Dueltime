@@ -1,0 +1,207 @@
+.contain_contact {
+  margin-right: 162px;
+  margin-left: 162px;
+  background-color: rgb(67, 37, 95);
+  background-image: url("/Image/BG-contact.jpg");
+}
+
+#contact_title {
+  font-size: 60px;
+  color: #DCF2F1;
+  padding: 20px;
+  text-align: center;
+}
+
+.discord {
+  display: flex;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.discord > div {
+  width: 50%;
+}
+
+.info {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info a {
+  color: #DCF2F1;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+}
+
+.info ul {
+  color: #DCF2F1;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10% ;
+  padding-right: 10%;
+}
+  .info i:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+
+  .icon_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon_contact a {
+    text-decoration: none;
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  .icon_contact a:hover {
+    color: rgb(155, 80, 168);
+  }
+  
+  /* Change color on hover */
+  .icon_contact i:hover {
+    color: #33c2e6;
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+
+  .icon_contact i {
+    color: #DCF2F1;
+  }
+
+  /* Contact Us */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    width: 80%;
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .col-25 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-75 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* MOBile */
+
+  @media only screen and (max-width: 500px) {
+    #contact_title {
+      font-size: 25px;
+    }
+
+    .contain_contact {
+      margin: 0;
+    }
+
+    .discord {
+      display: block;
+      padding: 0;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .discord > div {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    .icon_contact a {
+      text-decoration: none;
+      font-size: 30px;
+      margin: 20px;
+    }
+
+  }
+
+  /* padlet */
+
+  @media only screen and (max-width: 800px) and (min-width:501px) {
+    #contact_title {
+      font-size: 35px;
+    }
+
+    .contain_contact {
+      margin: 10px;
+    }
+
+    .discord {
+      display: block;
+      padding: 0;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .discord > div {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    .icon_contact a {
+      font-size: 40px;
+    }
+
+    .info ul {
+      text-align: left;
+      padding-left: 20%  ;
+      padding-right: 20%;
+    }
+  }

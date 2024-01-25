@@ -1,0 +1,13 @@
+.slide_show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.list_image {
+    display: flex;
+}
+
+.slide_show img {
+    width: 100%;
+}
